@@ -63,7 +63,7 @@ const Home = ({ mergedContract }) => {
       await loadMarketplaceItems(); // Reload marketplace items after purchase
     } catch (err) {
       console.error("Error purchasing item:", err);
-      setError("Failed to purchase item. Please check your wallet or network.");
+      setError("seller cant purchase the nft.");
     }
   };
 
